@@ -2,13 +2,13 @@
 /**
  * File System Object Oriented Programming: Method File System
  *
- * @copyright ocean=Yohsuke
+ * @copyright Yohsuke Konishi
  */
 
 class MethodFileSystemConst
 {
-	const CURRENT_DIR_SYMBOL = '.';
-	const MAINMETHOD_NAME 	= 'main';
+	const CURRENT_DIR_SYMBOL 	= '.';
+	const MAINMETHOD_NAME 		= 'main';
 	const BASECLASS_NAME		= 'base';
 }
 

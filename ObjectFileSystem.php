@@ -2,13 +2,13 @@
 /**
  * File System Object Oriented Programming: Object File System
  *
- * @copyright ocean=Yohsuke
+ * @copyright Yohsuke Konishi
  */
 
 class ObjectFileSystemConst
 {
 	const MAINMETHOD_NAME	= 'main';
-	const BASECLASS_NAME		= 'Base';
+	const BASECLASS_NAME	= 'Base';
 }
 
 class ObjectFileSystemBase

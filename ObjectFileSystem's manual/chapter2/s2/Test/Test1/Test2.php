@@ -5,9 +5,9 @@ class Test2 extends \ObjectFileSystemFile
 {
 	function main()
 	{
-		print "Test2'main() has been called successfully.<br />";
+		print "Test2 has been called successfully.<br />";
 		
-		// Call Test3'main() 
+		// Call Test3
 		// Go to ./Test2/Test3.php
 		$this->Test3();
 	}

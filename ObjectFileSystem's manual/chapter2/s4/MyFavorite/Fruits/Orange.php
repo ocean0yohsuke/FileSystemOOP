@@ -3,11 +3,10 @@ namespace MyFavorite\Fruits;
 
 class Orange extends \ObjectFileSystemFile
 {
-	private $name = 'orange';
+	private $name = 'oranges';
 	
 	function main()
 	{
-		
 	}
 	
 	function name()

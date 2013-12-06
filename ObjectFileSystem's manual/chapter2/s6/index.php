@@ -10,6 +10,6 @@ $Objects->make();
 $Objects->Test();
 
 //The above example will output:
-//Hello world
+//Hello World!
 
 ?>

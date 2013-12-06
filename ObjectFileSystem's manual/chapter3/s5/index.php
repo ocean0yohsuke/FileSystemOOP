@@ -1,67 +1,53 @@
 <?php 
 /*
- * Use of private properties
+ * Use of public properties (2)
  */
 
 include_once '../../../ObjectFileSystem.php';
 $Objects = new ObjectFileSystem('./Objects', 'Objects');
-$Objects->var = 1;
+$Objects->var = 0;
 $Objects->make();
 
-// This print 
-// 2 : Test1.php
-// 3 : Test1/A.php
-// 4 : Test1/A/A.php
 $Objects->Test1();
-
-// This print 4; Public property is referenced. 
+// Public property will be referenced. 
 print $Objects->var; print ' : index.php <br />';
 print '<br />';
 
-// Refresh $Objects's public property
-$Objects->var = 1;
+$Objects->var = 0;
 $Objects->make();
 
-// This print
-// 2 : Test2.php
-// 3 : Test2/A.php
-// 4 : Test2/A/A.php
-// 5 : Test2/B.php
-// 6 : Test2/B/B.php 
 $Objects->Test2();
-
-// This print 6; Public property is referenced successfully. 
+// Public property will be referenced successfully. 
 print $Objects->var; print ' : index.php <br />';
 print '<br />';
 
-// Refresh $Objects's public property
-$Objects->var = 1;
+$Objects->var = 0;
 $Objects->make();
 
-// This print
-// 1 : Test3.php
-// 1 : Test3/A.php
-// 2 : Test3/A/A.php 
 $Objects->Test3();
-
-// This print 1; Public property, but which isn't defined as 'public $var;' explicitly in the next class of object, is NOT referenced. 
+// Private property will Not be referenced. 
 print $Objects->var; print ' : index.php <br />';
 print '<br />';
+
+$Objects->var = 0;
+$Objects->make();
 
 // The above example will output:
-// 2 : Test1.php
-// 3 : Test1/A.php
-// 4 : Test1/A/A.php
-// 4 : index.php 
+// 1 : Test1.php
+// 2 : Test1/A.php
+// 3 : Test1/A/A.php
+// 3 : index.php 
 //
-// 2 : Test2.php
-// 3 : Test2/A.php
-// 4 : Test2/A/A.php
-// 5 : Test2/B.php
-// 6 : Test2/B/B.php
-// 6 : index.php
+// 1 : Test2.php
+// 2 : Test2/A.php
+// 3 : Test2/A/A.php
+// 4 : Test2/B.php
+// 5 : Test2/B/B.php
+// 5 : index.php
 // 
 // 1 : Test3.php
 // 1 : Test3/A.php
-// 2 : Test3/A/A.php  
+// 2 : Test3/A/A.php
+// 1 : index.php 
+//
 ?>

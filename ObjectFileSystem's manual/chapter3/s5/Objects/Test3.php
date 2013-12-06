@@ -3,7 +3,7 @@ namespace Objects;
 
 class Test3 extends \ObjectFileSystemFile
 {
-	//public $var;
+	private $var;
 
 	function main()
 	{

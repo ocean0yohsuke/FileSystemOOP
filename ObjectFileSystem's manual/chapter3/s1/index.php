@@ -1,7 +1,7 @@
 <?php 
 /*
- * Use of parameters
- */
+* Use of parameters
+*/
 
 include_once '../../../ObjectFileSystem.php';
 $Objects = new ObjectFileSystem('./Objects', 'Objects');
@@ -11,7 +11,7 @@ $Objects->make();
 $Objects->Output('Hello world')->run();
 
 // output 'HELLO WORLD!<br />'
-$str_to_upper = true;
+$str_to_upper = TRUE;
 $Objects->Output('Hello world', $str_to_upper)->run();
 
 //The above example will output:

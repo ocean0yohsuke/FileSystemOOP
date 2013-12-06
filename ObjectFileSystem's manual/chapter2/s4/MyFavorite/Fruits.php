@@ -5,7 +5,6 @@ class Fruits extends \ObjectFileSystemFile
 {
 	function main()
 	{
-		
 	}
 	
 	function getList()

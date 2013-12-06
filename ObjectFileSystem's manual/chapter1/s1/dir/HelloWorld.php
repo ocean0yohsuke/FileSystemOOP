@@ -2,21 +2,19 @@
 /* 
  * If PHP version is 5.3.0 or higher, using following schema is recommended.
  */
-namespace ns; // Namespace 
+namespace ns; // namespace 
 
-class HelloWorld // Name of the method to be called
+class HelloWorld // name of the method to be called
 	extends \ObjectFileSystemFile // required 
 {
 	private $string;
 	
-	function main() 
-	{
-		$this->string = 'Hello, World!';
-	}
-		
-	function show()
-	{
-		print $this->string;
+        function construct() {
+		$this->string = 'Hello World!';
+        }
+
+	function main() {
+                print $this->string;
 	}
 }
 ?>

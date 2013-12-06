@@ -1,11 +1,11 @@
 <?php
-namespace Test\Test1\Test2; // Further postfix '\pack3' has been added 
+namespace Test\Test1\Test2; // postfix '\pack3' has been added furthermore
 
 class Test3 extends \ObjectFileSystemFile
 {
 	function main()
 	{
-		print "Test3'main() has been called successfully.<br />";
+		print "Test3 has been called successfully.<br />";
 		print '<br />';
 	}
 }

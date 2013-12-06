@@ -4,7 +4,6 @@ class MyFavorite_Fruits extends \ObjectFileSystemFile
 {
 	function main()
 	{
-		
 	}
 	
 	function getList()

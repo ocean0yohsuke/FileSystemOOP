@@ -5,6 +5,5 @@ class Test2 extends \ObjectFileSystemFile
 {
 	function main()
 	{
-		$this->Test2();
 	}
 }

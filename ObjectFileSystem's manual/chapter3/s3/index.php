@@ -1,7 +1,7 @@
 <?php 
 /*
- * Use of private properties
- */
+* Use of private properties
+*/
 
 include_once '../../../ObjectFileSystem.php';
 $Objects = new ObjectFileSystem('./Objects', 'Objects');

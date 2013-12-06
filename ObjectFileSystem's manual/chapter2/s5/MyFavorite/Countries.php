@@ -4,7 +4,6 @@ class MyFavorite_Countries extends \ObjectFileSystemFile
 {
 	function main()
 	{
-		
 	}
 	
 	function getList()

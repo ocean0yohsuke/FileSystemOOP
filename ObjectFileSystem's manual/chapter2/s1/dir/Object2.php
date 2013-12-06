@@ -5,8 +5,7 @@ class Object2 extends \ObjectFileSystemFile
 {
 	function main()
 	{
-		print 'world!';
-		
+		print 'World!';
 	}
 }
 ?>

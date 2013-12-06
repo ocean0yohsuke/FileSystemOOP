@@ -1,7 +1,7 @@
 <?php
 /*
- * Use of many methods
- */
+* Use of many objects
+*/
 
 include_once '../../../ObjectFileSystem.php';
 
@@ -11,10 +11,10 @@ $OFS->make();
 // output 'Hello '
 $OFS->Object1();
 
-// output 'world.'
+// output 'World!'
 $OFS->Object2();
 
 //The above example will output:
-//Hello world!
+//Hello World!
 
 ?>

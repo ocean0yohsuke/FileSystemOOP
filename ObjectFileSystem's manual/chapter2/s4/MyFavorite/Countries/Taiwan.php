@@ -7,7 +7,6 @@ class Taiwan extends \ObjectFileSystemFile
 	
 	function main()
 	{
-		
 	}
 	
 	function name()

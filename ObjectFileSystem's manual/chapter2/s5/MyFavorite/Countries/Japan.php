@@ -6,7 +6,6 @@ class MyFavorite_Countries_Japan extends \ObjectFileSystemFile
 	
 	function main()
 	{
-		
 	}
 	
 	function name()

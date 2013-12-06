@@ -1,14 +1,14 @@
 <?php
 /*
- * Use of setCach()
- */
+* Use of setCach()
+*/
 
 include_once '../../../ObjectFileSystem.php';
 $Test = new ObjectFileSystem('./Test', 'Test');
 $Test->make();
 $cache = $Test->get_cache();
 
-// print the cached data: a serialized object
+// print the cache data: a serialized object
 var_dump($cache); print '<br />'; print '<br />';
 
 // Normal mode

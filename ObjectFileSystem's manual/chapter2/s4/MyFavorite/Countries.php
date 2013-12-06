@@ -5,7 +5,6 @@ class Countries extends \ObjectFileSystemFile
 {
 	function main()
 	{
-		
 	}
 	
 	function getList()

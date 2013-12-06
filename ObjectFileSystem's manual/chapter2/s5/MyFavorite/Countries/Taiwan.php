@@ -6,7 +6,6 @@ class MyFavorite_Countries_Taiwan extends \ObjectFileSystemFile
 	
 	function main()
 	{
-		
 	}
 	
 	function name()

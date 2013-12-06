@@ -1,7 +1,7 @@
 <?php
 /*
- * Use of some methodfiles and many methodpacks
- */
+* Use of objectfiles as directory trees
+*/
 
 include_once '../../../ObjectFileSystem.php';
 
@@ -31,7 +31,7 @@ function I_like($list)
 }
 
 //The above example will output:
-//I like Japan and Taiwan.
 //I like apples and oranges.
+//I like Japan and Taiwan.
 
 ?>

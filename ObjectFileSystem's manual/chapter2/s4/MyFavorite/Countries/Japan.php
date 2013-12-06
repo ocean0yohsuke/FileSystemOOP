@@ -7,7 +7,6 @@ class Japan extends \ObjectFileSystemFile
 	
 	function main()
 	{
-		
 	}
 	
 	function name()

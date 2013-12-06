@@ -1,6 +1,6 @@
 <?php
 /*
- * Use of any MethodFile from any MethodPack
+ * Use of a methodFile from a methodPack
  */
 
 include_once '../../../MethodFileSystem.php';

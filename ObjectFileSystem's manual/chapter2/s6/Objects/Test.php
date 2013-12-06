@@ -1,9 +1,9 @@
 <?php
 namespace Objects;
 
-// Base class will be primarily loaded automatically if it exists.
-// Default name of the base class is 'base'.  
-class Test extends base
+// Base class will be primarily loaded automatically if exists.
+// Default name of the class is 'Base'.  
+class Test extends Base
 {
 	function main()
 	{

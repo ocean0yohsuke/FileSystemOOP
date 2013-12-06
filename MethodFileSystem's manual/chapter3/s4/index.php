@@ -1,7 +1,7 @@
 <?php 
 /*
- * Use of Instances of MethodFileSystem
- */
+* Use of object(s)
+*/
 
 include_once '../../../MethodFileSystem.php';
 $WrapperFSOOP = new MethodFileSystem('./Wrapper', 'Wrapper');
